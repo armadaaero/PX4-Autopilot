@@ -32,6 +32,8 @@
 ############################################################################
 
 px4_add_romfs_files(
+	aurora.main.mix
+	aurora.aux.mix
 	AAERTWF.main.mix
 	AAVVTWFF.main.mix
 	AAVVTWFF_vtail.main.mix
