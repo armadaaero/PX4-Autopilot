@@ -134,7 +134,8 @@ px4_add_romfs_files(
 	13010_claire
 	13012_convergence
 	13013_deltaquad
-	13014_vtol_babyshark
+	13014_Aurora_tailsitter
+	13017_Aurora_tailsitter
 	13050_generic_vtol_octo
 	13200_generic_vtol_tailsitter
 
