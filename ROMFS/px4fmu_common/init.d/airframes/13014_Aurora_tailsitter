@@ -20,7 +20,7 @@
 
 . ${R}etc/init.d/rc.vtol_defaults
 
-if [ $AUTOCNF == yes ]
+if [ $AUTOCNF = yes ]
 then
 	param set VT_MOT_COUNT 8
 	param set VT_TYPE 0
