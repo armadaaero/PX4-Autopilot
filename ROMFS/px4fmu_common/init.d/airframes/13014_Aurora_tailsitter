@@ -1,4 +1,4 @@
-#!/bin/nsh
+#!/bin/sh
 #
 # @name Armada prototype Aurora
 # @type VTOL Tailsiter
