@@ -22,9 +22,10 @@
 
 if [ $AUTOCNF = yes ]
 then
-	param set VT_MOT_COUNT 8
+	# param set VT_MOT_COUNT 8
 	param set VT_TYPE 0
 	param set PWM_RATE 500
+	param set VT_MOT_ID 12345678
 	# param set VT_IDLE_PWM_MC 1080
 	param set VT_F_TRANS_THR 0.75
 fi
