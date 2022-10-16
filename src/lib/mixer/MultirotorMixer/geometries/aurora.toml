@@ -10,48 +10,48 @@ Cm        = 0.05
 
 [[rotors]]
 name      = "front_right_1"
-position  = [360, 1109, -145]
-axis      = [-0.0872, 0, -0.9962]
+position  = [0.0360, 0.1109, -0.0145]
+axis      = [-0.0872, 0.0, -0.9962]
 direction = "CW"
 
 [[rotors]]
 name      = "rear_left_2"
-position  = [-360, -1109, 145]
-axis      = [0.0872, 0, -0.9962]
+position  = [-0.0360, -0.1109, 0.0145]
+axis      = [0.0872, 0.0, -0.9962]
 direction = "CW"
 
 [[rotors]]
 name      = "mid_front_right_3"
-position  = [390, 1867, 145]
-axis      = [0.1045, 0, -0.9945]
+position  = [0.0390, 0.1867, 0.0145]
+axis      = [0.1045, 0.0, -0.9945]
 direction = "CCW"
 
 [[rotors]]
 name      = "rear_right_4"
-position  = [-360, 1109, 145]
-axis      = [0.0872, 0, -0.9962]
+position  = [-0.0360, 0.1109, 0.0145]
+axis      = [0.0872, 0.0, -0.9962]
 direction = "CCW"
 
 [[rotors]]
 name      = "front_left_5"
-position  = [360, -1109, -145]
-axis      = [-0.0872, 0, -0.9962]
+position  = [0.0360, -0.1109, -0.0145]
+axis      = [-0.0872, 0.0, -0.9962]
 direction = "CCW"
 
 [[rotors]]
 name      = "mid_rear_left_6"
-position  = [-390, -1867, -85]
-axis      = [-0.1045, 0, -0.9945]
+position  = [-0.0390, -0.1867, -0.0085]
+axis      = [-0.1045, 0.0, -0.9945]
 direction = "CCW"
 
 [[rotors]]
 name      = "mid_front_left_7"
-position  = [390, -1867, 145]
-axis      = [0.1045, 0, -0.9945]
+position  = [0.0390, -0.1867, 0.0145]
+axis      = [0.1045, 0.0, -0.9945]
 direction = "CW"
 
 [[rotors]]
 name      = "mid_rear_right_8"
-position  = [-390, 1867, -85]
-axis      = [-0.1045, 0, -0.9945]
+position  = [-0.0390, 0.1867, -0.0085]
+axis      = [-0.1045, 0.0, -0.9945]
 direction = "CW"
