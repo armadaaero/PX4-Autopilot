@@ -159,10 +159,17 @@ int LightwareLaser::init()
 		return ret;
 
 	case 1:  /* SF10/a (25m 32Hz) */
-		_px4_rangefinder.set_min_distance(0.01f);
+		/*_px4_rangefinder.set_min_distance(0.01f);
 		_px4_rangefinder.set_max_distance(25.0f);
 		_conversion_interval = 31250;
+		break;*/
+		//edited case 1 for SF30/D sensor	
+		/* SF30/D (200m 39.08Hz) */
+		_px4_rangefinder.set_min_distance(0.2f);
+		_px4_rangefinder.set_max_distance(200.0f);
+		_conversion_interval = 25588;
 		break;
+
 
 	case 2:  /* SF10/b (50m 32Hz) */
 		_px4_rangefinder.set_min_distance(0.01f);
@@ -196,6 +203,14 @@ int LightwareLaser::init()
 		_px4_rangefinder.set_max_distance(100.0f);
 		_conversion_interval = 20834;
 		_type = Type::LW20c;
+		break;
+	
+	//added an extra case
+	case 7:
+		/* SF30/D (200m 39.08Hz) */
+		_px4_rangefinder.set_min_distance(0.2f);
+		_px4_rangefinder.set_max_distance(200.0f);
+		_conversion_interval = 25588;
 		break;
 
 	default:
